@@ -1,0 +1,27 @@
+# Site settings
+title: Dewayne Hicks
+email: your-email@example.com
+description: Portfolio of Dewayne Hicks, Gameplay Programmer.
+baseurl: "" # the subpath of your site, e.g. /blog. Leave empty if there's no subpath.
+url: "https://shadowpryo.github.io" # replace [username] with your GitHub username
+timezone: America/New_York # adjust if needed
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from building
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# Social media usernames (for minima theme)
+#twitter_username: your_twitter_username # replace with your Twitter handle or remove if not applicable
+github_username:  shadowpryo # replace [username] with your GitHub username
+
+# Minima theme settings (default Jekyll theme)
+minima:
+  skin: dark # apply dark mode
+
